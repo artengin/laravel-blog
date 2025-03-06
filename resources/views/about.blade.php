@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>О блоге</title>
-    </head>
-    <body>
-        <h1>О блоге</h1>
-        <p>Эксперименты с Laravel</p>
-    </body>
-</html>
+@section('title', 'О блоге')
+
+@section('content')
+    <h1>О блоге</h1>
+    <p>Эксперименты с Laravel на Хекслете</p>
+@endsection
